@@ -8,7 +8,6 @@ $(function(){
     $(":reset").css("backgroundColor", "#bbb");
     $(":disabled").css("opacity", "0.5");
     $(":checkbox:checked").parent().css("backgroundColor", "red");
-
     $(".input option:selected").each(function() {
         $(":text").val( $(this).text());
      });
