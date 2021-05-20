@@ -18,5 +18,6 @@ app.use(clientsRoute);
 app.use(purchasesRoute);
 app.use(companysRoute);
 app.listen(3333);
+console.log("server rodando!");
 
 
