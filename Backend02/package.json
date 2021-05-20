@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "swagger-autogen": "./server/server.js"
-  },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -18,8 +16,5 @@
     "pg-promise": "^10.10.1",
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0"
-  },
-  "devDependencies": {
-    "swagger-autogen": "^2.7.9"
   }
 }
