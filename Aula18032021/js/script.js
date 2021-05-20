@@ -16,7 +16,7 @@ $(function() {
             complete: function() {
                 $('.loading').remove();
             }
-        })
+        }
 
         function mostrarDados(dados) {
             $.each(dados, function(i, el) {
